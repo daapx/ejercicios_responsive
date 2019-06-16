@@ -1,0 +1,27 @@
+body{
+    display: grid;
+    grid-template-columns: repeat(1fr, 12);
+    grid-gap: .625em;
+    margin: 1rem 5%;
+}
+
+header, footer{
+    height: 20vh;
+    grid-column-end: span 12;
+}
+
+aside{
+    height: 80vh;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+main{
+    height: 80vh;
+    grid-column-start: 4;
+    grid-column-end: 13;
+}
+
+.trabajo-1 > *{
+    border: 1px solid $black;
+}
