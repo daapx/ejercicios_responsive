@@ -6,15 +6,26 @@
     }
     
     aside{
-        height: 80vh;
         grid-column-start: 1;
         grid-column-end: 4;
+        grid-row-end: span 3;
+        font-size: .8em;
+        padding: 1em;
     }
     
     section{
-        height: 20vh;
+        height: 24vh;
         grid-column-start: 4;
         grid-column-end: 13;
     }
 
+    .section--3{
+        grid-column-start: unset;
+        grid-column-end: span 4;
+    }
+
+    .section--1{
+        grid-column-start: unset; 
+        grid-column-end: span 1;
+    }
 }
