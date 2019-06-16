@@ -1,0 +1,10 @@
+.grilla{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: .625em;
+    margin: 1rem 5%;
+}
+
+.grilla > *{
+    border: 1px solid $black;
+}

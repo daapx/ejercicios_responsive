@@ -9998,31 +9998,55 @@ h3 {
   font-family: "Open Sans", sans-serif;
 }
 
-body {
-  display: grid;
-  grid-template-columns: repeat(1fr, 12);
-  grid-gap: 0.625em;
-  margin: 1rem 5%;
+.t-number {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: 4rem;
+  height: 4rem;
+  font-size: 3rem;
+  text-align: center;
+  transform: translate(-50%, -50%);
 }
 
-header, footer {
+.grilla--trabajo1 header, .grilla--trabajo1 footer {
   height: 20vh;
   grid-column-end: span 12;
 }
-
-aside {
+.grilla--trabajo1 aside {
   height: 80vh;
   grid-column-start: 1;
   grid-column-end: 4;
 }
-
-main {
+.grilla--trabajo1 main {
   height: 80vh;
   grid-column-start: 4;
   grid-column-end: 13;
 }
 
-.trabajo-1 > * {
+.grilla--trabajo2 header {
+  height: 20vh;
+  grid-column-end: span 12;
+}
+.grilla--trabajo2 aside {
+  height: 80vh;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.grilla--trabajo2 section {
+  height: 20vh;
+  grid-column-start: 4;
+  grid-column-end: 13;
+}
+
+.grilla {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 0.625em;
+  margin: 1rem 5%;
+}
+
+.grilla > * {
   border: 1px solid #000000;
 }
 

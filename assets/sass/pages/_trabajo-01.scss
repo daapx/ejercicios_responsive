@@ -1,0 +1,20 @@
+.grilla--trabajo1{
+    
+    header, footer{
+        height: 20vh;
+        grid-column-end: span 12;
+    }
+    
+    aside{
+        height: 80vh;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+    
+    main{
+        height: 80vh;
+        grid-column-start: 4;
+        grid-column-end: 13;
+    }
+
+}
