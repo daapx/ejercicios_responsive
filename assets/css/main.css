@@ -10018,6 +10018,13 @@ p {
   transform: translate(-50%, -50%);
 }
 
+.almedio {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .grilla--trabajo1 header, .grilla--trabajo1 footer {
   height: 20vh;
   grid-column-end: span 12;
@@ -10097,6 +10104,62 @@ p {
 }
 .grilla--trabajo3 .t-number {
   top: 90%;
+}
+
+.grilla--trabajo4 figure.logo, .grilla--trabajo4 .d-footer {
+  height: 17vh;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.grilla--trabajo4 figure.logo svg, .grilla--trabajo4 .d-footer svg {
+  width: 10vh;
+  height: 10vh;
+}
+.grilla--trabajo4 header {
+  grid-column-start: 3;
+  grid-column-end: 8;
+}
+.grilla--trabajo4 nav {
+  position: relative;
+  grid-column-start: 8;
+  grid-column-end: 13;
+}
+.grilla--trabajo4 nav ul {
+  position: absolute;
+  right: 10%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.grilla--trabajo4 nav ul li {
+  display: inline-table;
+  margin: 0 40px;
+}
+.grilla--trabajo4 main {
+  height: 70vh;
+  grid-column-end: span 12;
+  background-image: url(../images/dkwp.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.grilla--trabajo4 main h1 {
+  text-align: center;
+}
+.grilla--trabajo4 footer {
+  grid-column-start: 3;
+  grid-column-end: 11;
+  text-align: center;
+}
+.grilla--trabajo4 footer div > * {
+  margin: 0 0.5em;
+}
+.grilla--trabajo4 figure.f-footer {
+  grid-column-start: 11;
+  grid-column-end: 13;
+}
+.grilla--trabajo4 figure.f-footer > img {
+  width: 15vh;
+  height: 15vh;
+  border-radius: 50%;
 }
 
 .grilla {
