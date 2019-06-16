@@ -1,0 +1,46 @@
+.grilla--trabajo3{
+    figure{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        height: 20vh;
+        text-align: center;
+
+        img{
+            position: relative;
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+
+    header{
+        grid-column-start: 3;
+        grid-column-end: 13;
+    }
+
+    aside{
+        grid-column-end: span 2;
+        grid-row-end: span 2;
+    }
+
+    main{
+        grid-column-start: 3;
+        grid-column-end: 11;
+        height: 60vh;
+        font-size: .8em;
+        padding: 2em;
+        overflow-y: scroll;
+    }
+
+    footer{
+        grid-column-start: 3;
+        grid-column-end: 11;
+        height: 15vh;
+    }
+
+    .t-number{
+        top: 90%;
+    }
+}

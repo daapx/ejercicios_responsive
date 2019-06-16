@@ -9994,6 +9994,15 @@ h3 {
     border-color: #dee2e6;
   }
 }
+figure {
+  display: block;
+  margin-bottom: 0;
+}
+
+p {
+  margin-bottom: 0;
+}
+
 * {
   font-family: "Open Sans", sans-serif;
 }
@@ -10034,6 +10043,8 @@ h3 {
   grid-row-end: span 3;
   font-size: 0.8em;
   padding: 1em;
+  max-height: 80vh;
+  overflow-y: scroll;
 }
 .grilla--trabajo2 section {
   height: 24vh;
@@ -10047,6 +10058,45 @@ h3 {
 .grilla--trabajo2 .section--1 {
   grid-column-start: unset;
   grid-column-end: span 1;
+}
+
+.grilla--trabajo3 figure {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  height: 20vh;
+  text-align: center;
+}
+.grilla--trabajo3 figure img {
+  position: relative;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.grilla--trabajo3 header {
+  grid-column-start: 3;
+  grid-column-end: 13;
+}
+.grilla--trabajo3 aside {
+  grid-column-end: span 2;
+  grid-row-end: span 2;
+}
+.grilla--trabajo3 main {
+  grid-column-start: 3;
+  grid-column-end: 11;
+  height: 60vh;
+  font-size: 0.8em;
+  padding: 2em;
+  overflow-y: scroll;
+}
+.grilla--trabajo3 footer {
+  grid-column-start: 3;
+  grid-column-end: 11;
+  height: 15vh;
+}
+.grilla--trabajo3 .t-number {
+  top: 90%;
 }
 
 .grilla {
