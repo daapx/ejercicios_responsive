@@ -1,0 +1,84 @@
+.grilla--trabajo7{
+    margin: 0 !important;
+    grid-gap: 0 !important;
+    
+    > * {
+        border: 0 !important;
+    }
+
+    header{
+        grid-column-start: 1;
+        grid-column-end: 7;
+        height: 17vh;
+        font-size: 3rem;
+        border-bottom: 2px solid $black !important;
+        text-align: center;
+    }
+
+    nav{
+        grid-column-start: 7;
+        grid-column-end: 13;
+        background-color: $black;
+        color: $white;
+    }
+
+    main{
+        grid-column-end: span 12;
+        background-image: url(../images/obligame_prro.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        h2{
+            font-size: 15rem;
+            text-align: center;
+        }
+    }
+
+    footer{
+        grid-column-end: span 12;
+        height: 10vh;
+        text-align: center;
+        border-top: 2px solid $black !important;
+        padding-top: 1em;
+    }
+
+}
+
+@media only screen and (min-width: 576px){
+    .grilla--trabajo7{
+
+        header h1{
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 5rem;
+        }
+
+        header, nav{
+            grid-column-start: 1;
+            grid-column-end: span 12;
+        }
+
+        nav ul li{
+            border-left: 1px solid $white;
+        }
+
+        nav a{
+            color: $white;
+        }
+
+        nav ul li:first-of-type {
+            border-left: none;
+        }
+
+        main{
+            height: 60vh;
+
+            h2, p{
+                position: relative;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+        }
+    }
+}
