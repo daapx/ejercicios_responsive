@@ -1,0 +1,114 @@
+.grilla--trabajo9{
+    background-image: url(../images/dkwp.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    div.celeste{
+        width: 25vw;
+        height: 123vh;
+        position: absolute;
+        top: 0;
+        left: 15vw;
+        z-index: 1;
+        background-color: $celeste;
+        opacity: .75;
+    }
+
+    header{
+        h1{
+            position: relative;
+            margin-top: 2rem;
+            margin-left: .5rem;
+            font-size: 8rem;
+            color: $rojo;
+            z-index: 2;
+            font-weight: 700;
+        }
+    }
+
+    div.side-text{
+        width: 100%;
+        text-align: right;
+        padding-right: 1em;
+
+        p{
+            position:relative;
+            left: 100%;
+            transform: translateX(-100%);
+            width: 230px;
+            z-index: 3;
+        }
+    }
+
+    div.iconos{
+        position: relative;
+        background-color: transparentize(darken($grisazulado, 40%), .4);
+        border-radius: 1em;
+        width: 150px;
+        left: 50%;
+        text-align: center;
+        transform: translateX(-50%);
+        margin-top: 4rem;
+        z-index: 2;
+        color: $white;
+        
+        i{
+            margin: .25rem .5rem;
+        }
+    }
+
+    div.last-text{
+        position: relative;
+        background-color: transparentize(darken($grisazulado, 40%), .4);
+        color: $white;
+        z-index: 3;
+        margin-top: 2rem;
+        padding: 1rem;
+        font-size: .8rem;
+    }
+
+    div.side-text{
+        p{
+            left: 43%;
+            transform: translateX(-50%);
+            text-align: left; 
+        }
+    }
+}
+
+@media (min-width: 768px){
+    .grilla--trabajo9{
+
+        header{
+            h1{
+                margin-top: 0;
+                font-size: 10rem;
+                margin-left: 20vw;
+                margin-right: 10vw
+            }
+        }
+
+        div.celeste{
+            width: 15vw;
+            height: 100vh;
+            left: 30vw;
+        }
+
+        div.iconos{
+            position: absolute;
+            bottom: 5vh;
+            left: 2vw;
+            font-size: 2rem;
+            transform: none;
+            width: 300px;
+        }
+
+        div.last-text{
+            position: absolute;
+            width: 45vw;
+            bottom: 5vh;
+            right: 2vw;
+        }
+    }
+}
