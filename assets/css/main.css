@@ -10645,6 +10645,47 @@ p {
   background-position-x: -100px;
 }
 
+@media screen and (min-width: 768px) {
+  .grilla--trabajo10 {
+    background-position-x: unset;
+    background-size: cover;
+    background-position-y: bottom;
+  }
+  .grilla--trabajo10 .navbar__logo {
+    font-size: 2rem;
+  }
+  .grilla--trabajo10 .navbar__line {
+    width: 30vw;
+    margin-left: 10vw;
+    background-color: #ffffff;
+  }
+  .grilla--trabajo10 main .main__ml {
+    top: 10vh;
+    height: 70vh;
+  }
+  .grilla--trabajo10 main .main__mbl {
+    height: 20vw;
+    width: 20vw;
+  }
+  .grilla--trabajo10 main .main__circle {
+    position: absolute;
+    top: unset;
+    left: 15vw;
+    bottom: 20vh;
+    width: 25vw;
+    height: 25vw;
+    background-position-y: -310px;
+    background-position-x: -75px;
+  }
+  .grilla--trabajo10 main .main__text {
+    width: 35vw;
+  }
+  .grilla--trabajo10 main .main__bground {
+    border-bottom-left-radius: 4.5em;
+    border-top-left-radius: 4.5em;
+    padding-left: 2.5rem;
+  }
+}
 .grilla {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
