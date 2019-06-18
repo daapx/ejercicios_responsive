@@ -10558,6 +10558,93 @@ p {
     right: 2vw;
   }
 }
+.grilla--trabajo10 {
+  background-image: url(../images/chapel-4245437_960_720.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: -150px;
+}
+.grilla--trabajo10 .navbar__link {
+  color: #ffffff;
+}
+.grilla--trabajo10 .navbar__logo, .grilla--trabajo10 .navbar__toggler {
+  color: #000000;
+}
+.grilla--trabajo10 .pantalla-gris {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-color: rgba(153, 153, 153, 0.3);
+}
+.grilla--trabajo10 header {
+  height: 10vh;
+  color: #000000;
+  padding: 1rem 2rem 0 1.5rem;
+}
+.grilla--trabajo10 main {
+  height: 90vh;
+  padding: 2rem;
+  padding-top: 0;
+  position: relative;
+}
+.grilla--trabajo10 main .main__ml {
+  position: relative;
+  border-left: 1px solid #ffffff;
+  z-index: -2;
+  height: 40vh;
+}
+.grilla--trabajo10 main .main__mbl {
+  position: absolute;
+  bottom: 3rem;
+  right: 2rem;
+  width: 50vw;
+  height: 50vw;
+  z-index: -2;
+  border-right: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+.grilla--trabajo10 main .main__text {
+  position: absolute;
+  bottom: 4.5rem;
+  right: 0;
+  color: #ffffff;
+  max-width: 80vw;
+  z-index: 1;
+}
+.grilla--trabajo10 main h1 {
+  font-size: 2em !important;
+}
+.grilla--trabajo10 main h5 {
+  font-size: 0.9em;
+}
+.grilla--trabajo10 main h1, .grilla--trabajo10 main h5, .grilla--trabajo10 main p {
+  text-align: right;
+  padding-right: 3.5rem;
+}
+.grilla--trabajo10 main .main__bground {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-bottom-left-radius: 3em;
+  border-top-left-radius: 3em;
+  padding-left: 1rem;
+}
+.grilla--trabajo10 main .main__bground p {
+  font-size: 0.7em;
+}
+.grilla--trabajo10 main .main__circle {
+  position: relative;
+  left: -1rem;
+  width: 60vw;
+  height: 60vw;
+  border-radius: 50%;
+  background-image: url(../images/chapel-4245437_960_720.jpg);
+  background-repeat: no-repeat;
+  background-position-y: -400px;
+  background-position-x: -100px;
+}
+
 .grilla {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
