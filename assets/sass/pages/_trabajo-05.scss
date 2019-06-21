@@ -1,7 +1,15 @@
 .grilla--trabajo5{
+
+    div.row:first-of-type{
+        margin-bottom: 10px;
+
+        :first-child{
+            margin-bottom: 10px;
+        }
+    }
+
     figure.logo{
         height: 12vh;
-        grid-column-end: span 12;
         svg{
             width: 7vh;
             height: 7vh;
@@ -9,7 +17,6 @@
     }
 
     header{
-        grid-column-end: span 12;
         .t-number--trabajo5 {
             left: 0;
             top: 0;
@@ -39,7 +46,6 @@
     }
 
     main{
-        grid-column-end: span 12;
         height: 80vh;
         background-image: url(../images/dkwp.jpg);
         background-repeat: no-repeat;
@@ -49,10 +55,15 @@
 
 @media screen and (min-width: 576px){
     .grilla--trabajo5{
+
+        div.row:first-of-type{
+            :first-child{
+                margin-bottom: 0;
+            }
+        }
+
         figure.logo{
             height: 17vh;
-            grid-column-start: 1;
-            grid-column-end: 3;
             svg{
                 width: 10vh;
                 height: 10vh;
@@ -61,8 +72,6 @@
 
         header{
             height: 17vh;
-            grid-column-start: 3;
-            grid-column-end: 13;
             position: relative;
             
 
