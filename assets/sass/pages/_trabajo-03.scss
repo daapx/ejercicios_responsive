@@ -1,7 +1,12 @@
 .grilla--trabajo3{
+
+    div.row:first-of-type{
+        margin-bottom: 10px;
+    }
+
+    
+
     figure{
-        grid-column-start: 1;
-        grid-column-end: 3;
         height: 20vh;
         text-align: center;
 
@@ -16,18 +21,14 @@
     }
 
     header{
-        grid-column-start: 3;
-        grid-column-end: 13;
+        height: 20vh;
     }
 
     aside{
-        grid-column-end: span 2;
-        grid-row-end: span 2;
+        height: 60vh;
     }
 
     main{
-        grid-column-start: 3;
-        grid-column-end: 11;
         height: 60vh;
         font-size: .8em;
         padding: 2em;
@@ -35,8 +36,7 @@
     }
 
     footer{
-        grid-column-start: 3;
-        grid-column-end: 11;
+        margin-top: 10px;
         height: 15vh;
     }
 
