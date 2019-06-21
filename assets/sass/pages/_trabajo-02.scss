@@ -2,32 +2,37 @@
     
     header{
         height: 20vh;
-        grid-column-end: span 12;
+        margin-bottom: 10px;
     }
     
-    aside{
-        grid-column-start: 1;
-        grid-column-end: 4;
-        grid-row-end: span 3;
-        font-size: .8em;
-        padding: 1em;
-        max-height: 80vh;
+    aside > div{
+        max-height: 75.3vh;
         overflow-y: scroll
     }
     
-    section{
+    aside{
+        padding-right: 5px;
+    }
+
+    main{
+        padding-left: 5px;
+    }
+
+    section > div{
         height: 24vh;
-        grid-column-start: 4;
-        grid-column-end: 13;
     }
 
-    .section--3{
-        grid-column-start: unset;
-        grid-column-end: span 4;
+    section{
+        margin-bottom: 10px;
     }
 
-    .section--1{
-        grid-column-start: unset; 
-        grid-column-end: span 1;
+    .row--gap-changed{
+        section:first-of-type{
+            padding-right: 0;
+        }
+
+        section:last-of-type{
+            padding-left: 0;
+        }
     }
 }
